@@ -27,8 +27,8 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    delay: 0
-    scroll: false
+    delay: 40
+    scroll: true
     headers:
         - { header: '', value: '' }
     cookies: ''
