@@ -6,10 +6,6 @@ basic:
         development: 'https://ac29244ebe3e5ac4-nuvance.devcloud.fayze2.com'
     breakpoints:
         - 320
-        - 768
-        - 1024
-        - 1280
-        - 1440
         - 1920
     pages:
         - /
