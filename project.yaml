@@ -22,26 +22,38 @@ basic:
         - /health-tips-and-news/your-brain-on-menopause
         - /newsroom
     monitoring:
-        days: {  }
-        type: ''
+        days: [Mon]
+        type: weekly
         schedule_time: '12:30 AM'
-        schedule_time_zone: Europe/London
+        schedule_time_zone: America/New_York
         compare_with: last-production
         compare_with_fresh: production
 advanced:
     mask: ''
     remove: ''
-    delay: 10
+    delay: 0
     scroll: false
     headers:
         - { header: '', value: '' }
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
     sensitivity: 5
-    night_mode: ''
-    retina_images: ''
+    night_mode: false
+    retina_images: false
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
