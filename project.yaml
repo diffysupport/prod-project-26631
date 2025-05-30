@@ -19,7 +19,7 @@ basic:
         - /newsroom
     monitoring:
         days: [Mon]
-        type: weekly
+        type: ''
         schedule_time: '12:30 AM'
         schedule_time_zone: America/New_York
         compare_with: last-production
