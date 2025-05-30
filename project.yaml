@@ -1,0 +1,52 @@
+basic:
+    name: Nuvance
+    environments:
+        production: 'https://nuvancehealthorgprod.prod.acquia-sites.com/'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 320
+        - 768
+        - 1024
+        - 1280
+        - 1440
+        - 1920
+    pages:
+        - /
+        - /services-and-treatments
+        - /services-and-treatments/primary-care
+        - /locations
+        - /about-us/who-we-are
+        - /locations/danbury-hospital
+        - /health-tips-and-news
+        - /health-tips-and-news/your-brain-on-menopause
+        - /newsroom
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 10
+    scroll: false
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 5
+    night_mode: ''
+    retina_images: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
+proxy: false
+type: single-site
