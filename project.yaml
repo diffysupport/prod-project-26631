@@ -4,6 +4,10 @@ basic:
         production: 'https://nuvancehealthorgprod.prod.acquia-sites.com/'
         staging: 'https://nuvancehealthorgstage.prod.acquia-sites.com/'
         development: 'https://ac29244ebe3e5ac4-nuvance.devcloud.fayze2.com'
+    basicAuth:
+        production: { user: Nuvance, password: NuvanceH3alth! }
+        staging: { user: Nuvance, password: NuvanceH3alth! }
+        development: { user: '', password: '' }
     breakpoints:
         - 320
         - 1920
@@ -11,7 +15,7 @@ basic:
         - /
         - /services-and-treatments
         - /services-and-treatments/primary-care
-        - /locations
+        - '/locations?keyword=cervical&geolocation%5Bdistance%5D%5Bfrom%5D=16&geolocation%5Bvalue%5D=10512'
         - /about-us/who-we-are
         - /locations/danbury-hospital
         - /health-tips-and-news
@@ -39,6 +43,7 @@ advanced:
     sensitivity: 30
     night_mode: false
     retina_images: false
+    single_ip: false
     login:
         type: none
         click_element: false
@@ -56,5 +61,3 @@ advanced:
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
-proxy: false
-type: single-site
