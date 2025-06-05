@@ -1,11 +1,11 @@
 basic:
     name: Nuvance
     environments:
-        production: 'https://nuvancehealthorgprod.prod.acquia-sites.com/'
+        production: 'https://www.nuvancehealth.org'
         staging: 'https://nuvancehealthorgstage.prod.acquia-sites.com/'
         development: 'https://ac29244ebe3e5ac4-nuvance.devcloud.fayze2.com'
     basicAuth:
-        production: { user: Nuvance, password: NuvanceH3alth! }
+        production: { user: '', password: '' }
         staging: { user: Nuvance, password: NuvanceH3alth! }
         development: { user: '', password: '' }
     breakpoints:
