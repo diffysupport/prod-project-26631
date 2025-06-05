@@ -15,7 +15,7 @@ basic:
         - /
         - /services-and-treatments
         - /services-and-treatments/primary-care
-        - '/locations?keyword=cervical&geolocation%5Bdistance%5D%5Bfrom%5D=16&geolocation%5Bvalue%5D=10512'
+        - /locations
         - /about-us/who-we-are
         - /locations/danbury-hospital
         - /health-tips-and-news
